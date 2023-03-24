@@ -1,3 +1,15 @@
-.hCont{
+.headCont{
+    background-color: #1F2937;
     display: flex;
+    color: #F9FAF8;
+    gap: 35px;
+    justify-content: end;
+    flex: 1 1 auto;
+    padding-right: 25px;
 }
+
+.headCont > .title{
+    flex-shrink: 0;
+    
+}
+
