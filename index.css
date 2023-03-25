@@ -108,9 +108,10 @@ body{
     width: 150px;
     height: 150px;
     border-radius: 5px;
-    justify-content: space-between;
+    gap: 10px;
 }
 
-
-
-
+.textitem{
+    display: flex;
+    justify-content: space-between;
+}
