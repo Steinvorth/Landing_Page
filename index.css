@@ -4,12 +4,16 @@
     color: #F9FAF8;
     gap: 35px;
     justify-content: end;
-    flex: 1 1 auto;
     padding-right: 25px;
 }
 
 .headCont > .title{
-    flex-shrink: 0;
-    
+    flex-grow: 4;
+    justify-content: start;
+
+}
+
+.headCont > .link{
+    padding-top: 23px;
 }
 
