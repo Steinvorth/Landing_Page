@@ -83,3 +83,34 @@ body{
 
 /* information Text // tercera parte del website */
 
+.infoCont{
+    display: flex;
+    border: 2px solid;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.info{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.boxitem{
+    display: flex;
+    height: 140px;
+    padding: 16px;
+}
+
+.item{
+    display: flex;
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+
+
+
