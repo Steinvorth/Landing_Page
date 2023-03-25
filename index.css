@@ -1,19 +1,38 @@
+body{
+    margin: 0;
+}
 .headCont{
     background-color: #1F2937;
     display: flex;
     color: #F9FAF8;
     gap: 35px;
     justify-content: end;
-    padding-right: 25px;
+    align-items: center;
+    padding-right: 60px;
+    
 }
 
 .headCont > .title{
     flex-grow: 4;
     justify-content: start;
+    margin: 15px;
+    padding-left: 60px;
 
 }
 
 .headCont > .link{
-    padding-top: 23px;
+    margin: 15px;
+    
+}
+
+.hText{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+
+}
+
+.hImg{
+    display: flex;
 }
 
