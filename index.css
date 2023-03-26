@@ -83,35 +83,40 @@ body{
 
 /* information Text // tercera parte del website */
 
-.infoCont{
-    display: flex;
-    border: 2px solid;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 20px;
-}
-
 .info{
+    display: flex;
     font-size: 24px;
     font-weight: bold;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.boxitem{
+.infocont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid;
+}
+
+.infotext{
+    display: flex;
+    padding: 16px;
+    border: 2px solid;
+    
+}
+
+.infobox{
     display: flex;
     height: 140px;
     padding: 16px;
 }
 
 .item{
-    display: flex;
     border: 2px solid blue;
     width: 150px;
     height: 150px;
     border-radius: 5px;
-    gap: 10px;
 }
 
-.textitem{
-    display: flex;
-    justify-content: space-between;
-}
