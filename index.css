@@ -92,30 +92,23 @@ body{
     padding-bottom: 30px;
 }
 
-.infotext{
+.infocont{
     display: flex;
-    padding: 16px;
-    border: 2px solid;
-    justify-content: space-around; 
-}
-
-.infobox{
-    display: flex;
-    height: 140px;
-    padding: 16px;
+    border: 2px solid orange;
     justify-content: center;
-    gap: 60px;
 }
 
 .item{
+    display: flex;
     border: 2px solid blue;
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    align-self: center;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
-.text{
-    align-self: center;
+.txt{
+    display: flex;
+    border: 2px solid red;
 }
 
