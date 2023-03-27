@@ -93,7 +93,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 70px;
-
+    padding-bottom: 80px;
 }
 
 .item{
@@ -114,3 +114,33 @@ body{
     padding-bottom: 50px;
 }
 
+/* Comment Section */
+
+.comment{
+    display: flex;
+    background-color: #E5E7EB;
+    border: 2px solid;    
+}
+
+.cText{
+    display: flex;
+    color: #1F2937;
+    border: 2px solid gold;
+    margin: 80px;
+}
+
+.cText .testimonial{ 
+    display: flex;   
+    border: 2px solid orange;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.cText .aText{
+    display: flex;
+    border: 2px solid blueviolet;
+    font-size: 14px;
+    font-weight: bold;
+    
+}
