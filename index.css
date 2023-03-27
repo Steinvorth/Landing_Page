@@ -85,6 +85,7 @@ html{
 /* information Text */
 
 .info{
+    margin-top: 60px;
     display: flex;
     font-size: 24px;
     font-weight: bold;
@@ -96,8 +97,10 @@ html{
 .infocont{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 70px;
     padding-bottom: 80px;
+    height: 150px;
 }
 
 .item{
@@ -127,6 +130,7 @@ html{
     background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .cCont .box{
@@ -138,7 +142,7 @@ html{
 
 .cCont .box .auth{
     align-self: flex-end;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
 
 }
@@ -152,3 +156,69 @@ html{
 
 /* call to action */
 
+.ctaCont{
+    display: flex;
+    border: 2px solid; 
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtbox{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+    align-items: center;
+    justify-self: center; 
+    padding-left: 120px;
+    padding-right: 120px;
+    height: 150px;
+    width: 700px;
+}
+
+.ctaCont .buttontext > p{
+    display: flex;
+    align-items: center;
+    color: #F9FAF8;
+    font-weight: bold;
+    justify-content: center;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    width: 105px;
+    height: 30px;
+    flex: 1;
+}
+
+.txtbox .text{
+    border: 2px solid yellow;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    flex: 2;
+    color: #F9FAF8;
+}
+
+.text .titleT{
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+    
+}
+
+.text .bodyT{
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 70px;
+}
