@@ -1,8 +1,12 @@
 body{
-    margin: 0;
+    margin: 0;    
 }
 
-/* Header // Primera parte del website */
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
 .headCont{
     background-color: #1F2937;
     display: flex; 
@@ -26,7 +30,7 @@ body{
     
 }
 
-/* Hero Text // segunda parte del webstie para ponerle nombre */
+/* Hero Text */
 .heroCont{
     background-color: #1F2937;
     display: flex;
@@ -78,7 +82,7 @@ body{
     padding-top: 10px;
 }
 
-/* information Text // tercera parte del website */
+/* information Text */
 
 .info{
     display: flex;
@@ -110,38 +114,41 @@ body{
     display: flex;
     /* border: 2px solid red;     */
     height: 200px;
+    justify-content: center;
     align-items: end;
     padding-bottom: 50px;
+    width: 100px;
 }
 
 /* Comment Section */
 
-.comment{
+.cCont{
     display: flex;
     background-color: #E5E7EB;
-    border: 2px solid;   
+    justify-content: center;
     align-items: center;
 }
 
-.cText{
+.cCont .box{
     display: flex;
-    color: #1F2937;
-    border: 2px solid gold;
-    margin: 80px;
+    width: 700px;
+    flex-direction: column;
+    margin-top: 30px;
 }
 
-.cText .testimonial{ 
-    display: flex;   
-    border: 2px solid orange;
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-}
-
-.cText .aText{
-    display: flex;
-    border: 2px solid blueviolet;
-    font-size: 14px;
+.cCont .box .auth{
+    align-self: flex-end;
+    font-size: 16px;
     font-weight: bold;
-    align-self: end;
+
 }
+
+.cCont .box .quote{
+    align-self: center;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* call to action */
+
